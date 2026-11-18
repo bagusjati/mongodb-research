@@ -1,0 +1,7 @@
+primary=10.148.0.4 secondary=10.128.0.2
+{ ok: 1 }
+10.148.0.4:27017 PRIMARY
+10.128.0.2:27017 SECONDARY
+--- 10.128.0.2 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 205.371/205.504/206.733/0.287 ms

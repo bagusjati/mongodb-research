@@ -1,0 +1,19 @@
+2026-11-17T14:16:30Z START
+2026-11-17T14:16:51Z provision ok
+2026-11-17T14:16:56Z jmx ok
+2026-11-17T14:18:04Z deploy standalone ok
+2026-11-17T14:19:44Z deploy replica ok
+2026-11-17T14:21:37Z deploy sharded ok
+2026-11-17T14:24:21Z deploy shardedreplica ok
+2026-11-17T14:24:47Z meta ok
+2026-11-17T14:25:07Z smoke ok
+2026-11-17T16:59:47Z short scenarios (users, payload) ok
+2026-11-17T17:47:23Z requests pass 1 ok
+2026-11-17T18:34:43Z requests pass 2 ok
+2026-11-17T19:21:28Z requests pass 3 ok
+2026-11-17T19:23:03Z deploy replica w1 ok
+2026-11-17T19:32:30Z isolated w1 ok
+2026-11-17T19:33:18Z deploy standalone pool1000 ok
+2026-11-17T19:38:00Z isolated pool ok
+2026-11-17T19:41:19Z analyze ok
+2026-11-17T19:41:19Z ALL DONE

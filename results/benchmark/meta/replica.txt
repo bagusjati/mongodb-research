@@ -1,0 +1,19 @@
+== replica 2026-11-17T14:24:25Z
+mongodb 7.0.9
+docker 29.10.0
+1024
+16
+               total        used        free      shared  buff/cache   available
+Mem:              62           1          55           0           5          61
+app-mongo-express-1 mongo-express Up 5 minutes
+app-mongo1-1 mongo:7.0.9 Up 5 minutes (healthy)
+app-mongo2-1 mongo:7.0.9 Up 5 minutes
+app-mongo3-1 mongo:7.0.9 Up 5 minutes
+app-server-1 app-server Up 5 minutes
+mongo1:27017 1
+mongo2:27018 0.5
+mongo3:27019 0.5
+{
+  w: 'majority',
+  wtimeout: 0
+}

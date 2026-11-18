@@ -1,0 +1,10 @@
+== standalone 2026-11-17T14:24:21Z
+mongodb 7.0.9
+docker 29.10.0
+1024
+16
+               total        used        free      shared  buff/cache   available
+Mem:              62           0          56           0           5          61
+app-mongo-express-1 mongo-express Up 6 minutes
+app-mongodb-1 mongo:7.0.9 Up 6 minutes
+app-server-1 app-server Up 6 minutes

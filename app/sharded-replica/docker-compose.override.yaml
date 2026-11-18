@@ -1,0 +1,4 @@
+services:
+  server:
+    environment:
+      - MONGO_URI=${MONGO_URI:-}

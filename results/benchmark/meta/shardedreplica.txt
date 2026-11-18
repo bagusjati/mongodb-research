@@ -1,0 +1,47 @@
+== shardedreplica 2026-11-17T14:24:37Z
+mongodb 7.0.9
+docker 29.10.0
+1024
+16
+               total        used        free      shared  buff/cache   available
+Mem:              62           1          55           0           5          60
+app-mongo-express-1 mongo-express Up About a minute
+app-server-1 app-server Up 21 seconds
+mongo-config-01 mongo:7.0.9 Up About a minute
+router-01 mongo:7.0.9 Up About a minute
+shard-01-node-a mongo:7.0.9 Up About a minute
+shard-01-node-b mongo:7.0.9 Up About a minute
+shard-01-node-c mongo:7.0.9 Up About a minute
+shard-02-node-a mongo:7.0.9 Up About a minute
+shard-02-node-b mongo:7.0.9 Up About a minute
+shard-02-node-c mongo:7.0.9 Up About a minute
+Shard rs-shard-02 at rs-shard-02/shard02-a:27017,shard02-b:27017,shard02-c:27017
+{
+  data: '76B',
+  docs: 1,
+  chunks: 2,
+  'estimated data per chunk': '38B',
+  'estimated docs per chunk': 0
+}
+---
+Shard rs-shard-01 at rs-shard-01/shard01-a:27017,shard01-b:27017,shard01-c:27017
+{
+  data: '0B',
+  docs: 0,
+  chunks: 2,
+  'estimated data per chunk': '0B',
+  'estimated docs per chunk': 0
+}
+---
+Totals
+{
+  data: '76B',
+  docs: 1,
+  chunks: 4,
+  'Shard rs-shard-02': [
+    '100 % data',
+    '100 % docs in cluster',
+    '76B avg obj size on shard'
+  ],
+  'Shard rs-shard-01': [ '0 % data', '0 % docs in cluster', '0B avg obj size on shard' ]
+}

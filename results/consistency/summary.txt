@@ -1,0 +1,6 @@
+scenario	runs	mean_lag_ms	sd_between_runs_ms	median_ms	p95_ms	max_ms
+baseline	6	9105.8	22037.7	9105.0	9256	55086
+delay1000	5	3141.6	2179.5	2994.1	4554.2	8784
+cpu50	5	136.1	58.4	109.6	201	614
+cpu10	5	111.2	0.9	110.2	115.8	222
+cpu1	5	312.8	22.1	312.1	460	603

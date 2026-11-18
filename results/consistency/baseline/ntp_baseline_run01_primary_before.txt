@@ -1,0 +1,2 @@
+System time     : 0.000002836 seconds fast of NTP time
+RMS offset      : 0.000061184 seconds
